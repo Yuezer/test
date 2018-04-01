@@ -6,16 +6,16 @@ class Test_allure:
         pass
     def teardown(self):
         pass
-    @allure.step("我是测试步骤01")       #添加测试步骤
+    @allure.step("我是测试步骤001")       #添加测试步骤
     def test_al1(self):
         allure.attach('描述','我是测试第一步的描述')    #添加测试描述
         assert 1
 
-    @allure.step("我是测试步骤02")       #添加测试步骤
+    @allure.step("我是测试步骤002")       #添加测试步骤
     def test_al2(self):
         allure.attach('描述', '我是测试第二步的描述')  # 添加测试描述
         assert 1
 
-    @allure.step("我是测试步骤03")       #添加测试步骤
+    @allure.step("我是测试步骤003")       #添加测试步骤
     def test_al3(self):
         assert 1
