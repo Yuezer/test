@@ -18,5 +18,4 @@ class Test_allure:
 
     @allure.step("我是测试步骤003")       #添加测试步骤
     def test_al3(self):
-        allure.attach('描述', '我是测试第三步的描述')  # 添加测试描述
         assert 1
