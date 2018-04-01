@@ -1,3 +1,4 @@
 {
-  "test_all.py::Test_allure": true
+  "test_all.py::Test_allure::()": true,
+  "test_all.py::Test_allure::()::test_al2": true
 }
